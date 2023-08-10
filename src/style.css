@@ -1,0 +1,48 @@
+main {
+    display: grid;
+    grid-template-columns: auto 370px;
+    grid-template-rows: repeat(4, auto-fit);
+    margin: 40px;
+    gap: 20px;
+    background-color: lightgray;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.video-principal {
+    grid-row: 1 / span 4;
+    height: 100%;
+}
+.video {
+    height: 360px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+.video-principal h2 {
+    margin-bottom: 5px;
+}
+.video-principal p:last-child {
+    margin-top: 10px;
+}
+
+.propaganda {
+    background-color: gray;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.videos-secundarios {
+    display: flex;
+    height: 100px;
+}
+.videos-secundarios div:first-child {
+    background-color: gray;
+    height: 100%;
+    width: 140px;
+    margin-right: 7px;
+}
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
